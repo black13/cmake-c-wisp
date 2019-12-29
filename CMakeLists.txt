@@ -18,7 +18,7 @@ INCLUDE_DIRECTORIES(
     "${CMAKE_SOURCE_DIR}"
 )
 
-set(SOURCE_FILES main.c common.c cons.c detach.c hashtab.c  number.c lisp_math.c mem.c lisp.c common.c detach.c object.c str.c reader.c vector.c
+set(SOURCE_FILES wisp.c common.c cons.c detach.c hashtab.c  number.c lisp_math.c mem.c lisp.c common.c detach.c object.c str.c reader.c vector.c
 cons.c eval.c symtab.c)
 add_executable(wisp ${SOURCE_FILES} )
 
